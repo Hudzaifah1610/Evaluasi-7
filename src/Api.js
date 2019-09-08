@@ -13,7 +13,11 @@ export default class Api extends React.Component {
       .then(res => {
         const { items } = res.data;
         delete items[0];
+        delete items[1];
         delete items[2];
+        delete items[3];
+        delete items[4];
+        delete items[5];
 
         this.setState({ items });
       });

@@ -41,6 +41,7 @@ const Home = ({ logout }) => {
       </div>
       <Api />
       <div className="text">
+        <h3>Artikel Terkait :</h3>
         <ol>
           <li>
             Politikus PD: Hati-hati! Cabut Paspor Veronica Koman Bisa Langgar
