@@ -67,9 +67,6 @@ const Home = ({ logout }) => {
         </ol>
         <h1 className="h1">Follow the news story Guys</h1>
       </div>
-      <div className="footer">
-        <>CopyPasteFrom@detik.Com,2019</>
-      </div>
     </div>
   );
 };
